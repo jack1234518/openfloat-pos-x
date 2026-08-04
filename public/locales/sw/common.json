@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "OpenFloat POS X",
+    "description": "Mfumo wa Biashara wenye Akili"
+  },
+  "nav": {
+    "dashboard": "Dashibodi",
+    "sales": "Mauzo",
+    "inventory": "Hesabu",
+    "procurement": "Ununuzi",
+    "accounting": "Uhasibu",
+    "hr": "HR & Malipo",
+    "crm": "CRM",
+    "branches": "Tawi",
+    "logistics": "Usafirishaji",
+    "ai": "Msaidizi AI"
+  },
+  "auth": {
+    "login": "Ingia",
+    "logout": "Toka",
+    "email": "Barua Pepe",
+    "password": "Nenosiri",
+    "signin": "Ingia",
+    "forgot": "Umesahau Nenosiri?"
+  },
+  "dashboard": {
+    "revenue": "Mapato",
+    "profit": "Faida",
+    "orders": "Maagizo",
+    "customers": "Wateja",
+    "inventory": "Thamani ya Hesabu",
+    "debt": "Deni la Mteja"
+  },
+  "sales": {
+    "cart": "Kikapu",
+    "checkout": "Malipo",
+    "total": "Jumla",
+    "discount": "Punguzo",
+    "payment": "Njia ya Malipo",
+    "cash": "Pesa",
+    "mpesa": "M-Pesa",
+    "credit": "Mkopo"
+  }
+}

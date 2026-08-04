@@ -1,0 +1,44 @@
+{
+  "app": {
+    "name": "OpenFloat POS X",
+    "description": "Intelligent Commerce OS & ERP Engine"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "sales": "POS Sales",
+    "inventory": "Inventory",
+    "procurement": "Procurement",
+    "accounting": "Accounting",
+    "hr": "HR & Payroll",
+    "crm": "CRM",
+    "branches": "Branches",
+    "logistics": "Logistics",
+    "ai": "AI Assistant"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email Address",
+    "password": "Password",
+    "signin": "Sign In",
+    "forgot": "Forgot Password?"
+  },
+  "dashboard": {
+    "revenue": "Revenue",
+    "profit": "Profit",
+    "orders": "Orders",
+    "customers": "Customers",
+    "inventory": "Inventory Value",
+    "debt": "Customer Debt"
+  },
+  "sales": {
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "total": "Total",
+    "discount": "Discount",
+    "payment": "Payment Method",
+    "cash": "Cash",
+    "mpesa": "M-Pesa",
+    "credit": "Credit"
+  }
+}

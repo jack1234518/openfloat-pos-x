@@ -1,0 +1,82 @@
+@import "tailwindcss";
+/* Mobile Responsiveness Improvements */
+
+/* Mobile sidebar */
+@media (max-width: 768px) {
+  .sidebar-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0f172a;
+    border-top: 1px solid #1e293b;
+    padding: 8px;
+    z-index: 50;
+    display: flex;
+    overflow-x: auto;
+    gap: 4px;
+  }
+  
+  /* Scrollable tables */
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Adjust stats grid */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  
+  /* Touch-friendly buttons */
+  button, .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better spacing */
+  .mobile-padding {
+    padding: 12px;
+  }
+  
+  /* Hide desktop-only elements */
+  .desktop-only {
+    display: none !important;
+  }
+  
+  /* Show mobile-only elements */
+  .mobile-only {
+    display: block !important;
+  }
+  
+  /* Adjust font sizes */
+  .text-mobile-sm {
+    font-size: 12px;
+  }
+  .text-mobile-base {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .header-flex {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .pos-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Desktop only */
+@media (min-width: 769px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
