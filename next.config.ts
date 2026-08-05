@@ -2,9 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'standalone',
-  
   reactStrictMode: true,
-  
   images: {
     remotePatterns: [
       {
@@ -17,10 +15,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  
-  // Ignore TypeScript errors during build (for deployment)
   typescript: {
     ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 

@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
@@ -35,7 +34,6 @@
     "recharts": "^3.10.1",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3",
-    "tailwindcss": "^3.4.0",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
@@ -50,6 +48,7 @@
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
     "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.0",
     "tsx": "^4.23.1",
     "typescript": "5.9.3"
   }
