@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
-import { SessionProvider } from "./providers/SessionProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,14 +6,14 @@ export const metadata: Metadata = {
   description: "OpenFloat POS X - Intelligent Commerce OS & ERP Engine",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body className="bg-slate-900 text-slate-100 antialiased">
-        <SessionProvider>
-          {children}
-        </SessionProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
