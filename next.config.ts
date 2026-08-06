@@ -21,6 +21,14 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  // Disable CSS processing
+  experimental: {
+    turbo: {
+      rules: {
+        '*.css': [],
+      },
+    },
+  },
 };
 
 export default nextConfig;
