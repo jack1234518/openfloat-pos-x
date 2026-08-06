@@ -1,5 +1,4 @@
-/* Global Styles - No Tailwind */
-
+/* Custom styles only – Tailwind is loaded via CDN */
 * {
   margin: 0;
   padding: 0;
@@ -27,39 +26,3 @@ body {
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-in-out;
 }
-
-/* Scrollbar styles */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1e293b;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #475569;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #64748b;
-}
-
-/* Utility classes */
-.flex { display: flex; }
-.flex-col { flex-direction: column; }
-.items-center { align-items: center; }
-.justify-between { justify-content: space-between; }
-.justify-center { justify-content: center; }
-.text-center { text-align: center; }
-.w-full { width: 100%; }
-.h-full { height: 100%; }
-.min-h-screen { min-height: 100vh; }
-.relative { position: relative; }
-.absolute { position: absolute; }
-.hidden { display: none; }
-.block { display: block; }
-.inline-block { display: inline-block; }
